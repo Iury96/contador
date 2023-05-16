@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #241b4e;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.container h1{
+
+    color: #000;
+    font-size: 28px;
+}
+.campo {
+    width: 450px;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;    
+}
+
+label{
+font-size: 0.9rem;
+margin-bottom: 1rem;
+font-weight: 900;
+}
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.counter{
+    color: #000;
+    margin-bottom: 1rem;
+}
+#contador{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
